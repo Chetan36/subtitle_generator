@@ -11,6 +11,10 @@
 > pip freeze > requirements.txt
 
 # TO RUN THE SUBTITLE GENERATOR PROGRAM
+1. Create 2 folders
+`resources` and `output`
+2. Put your input video inside the resources folder
+3. Run the below command
 > python video_subs.py --input resources/TAHM_SSSS.avi --output output
 
 # TO CONVERT THE SUBTITLE TO SRT PROGRAM
